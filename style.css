@@ -1,0 +1,38 @@
+body{
+  background-image: url(../assets/bg2.jpg);
+}
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+.btn1{
+  background-color: #fff;
+  border-radius: 30px;
+  color: green;
+}
+.btn2{
+  background-color: green;
+  border-radius: 30px;
+  color: #fff;
+}
+.kani{
+  padding-left: 600px;
+}
+.abc{
+  padding-left:20px ;
+}
+.logo{
+  margin: 20px;
+}
